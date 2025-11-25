@@ -7,11 +7,16 @@ requires-python = ">=3.10"
 dependencies = [
     "ddgs>=9.9.1",
     "dotenv>=0.9.9",
+    "faiss-cpu>=1.13.0",
+    "fastmcp>=2.13.1",
     "ipykernel>=7.1.0",
     "langchain>=1.0.5",
     "langchain-community>=0.4.1",
+    "langchain-mcp-adapters>=0.1.14",
     "langchain-openai>=1.0.2",
+    "langchain-text-splitters>=1.0.0",
     "langgraph>=1.0.3",
     "langgraph-checkpoint-sqlite>=3.0.0",
+    "pypdf>=6.4.0",
     "streamlit>=1.51.0",
 ]
